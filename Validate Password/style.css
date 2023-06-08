@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(lightblue , pink);
+}
+section{
+    border: none ;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    display: flex;
+    align-items: left ;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+}
+section h1{
+    text-align: center;
+}
+section label{
+    font-weight: 700;
+}
+div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid black;
+} 
+input{
+    border: none;
+    padding: 5px 9px;
+    background-color: aliceblue;
+
+}
+button{
+    margin-top: 30px;
+    background-image: linear-gradient(lightblue , pink);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 900;
+}
+button:hover{
+    color: pink;
+    background-image: none;
+}
+p{
+    text-align: center;
+}
+.a{
+    height: 40px;
+    width: 40px;
+}
